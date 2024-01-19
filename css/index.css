@@ -1,8 +1,11 @@
+body{
+    background-color: #ffffff;
+}
 li{
     flex-basis: 100%;
     text-align: center;
     list-style-type: none;
-    background: #7700ff;
+    background: #233142;
     text-decoration: none;
     align-items: flex-end;
 }
