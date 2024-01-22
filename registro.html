@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/registro.css">
 </head>
 <body>
     <header>
@@ -36,7 +36,37 @@
               </svg>Cuenta</a></li>
         </ul>
     </header>
-    <article></article>
-    <footer></footer>
+    <div>
+        <form>
+            <h1>REGISTRO</h1>
+            Nombre:
+            <input type="text" id="name" name="name" size="20" value=""/>
+            <br><br>
+            Apellidos:
+            <input type="text" id="surname" name="surname" size="20" value=""/>
+            <br><br>
+            Sexo:
+            <input type="radio" id="identificador" value="valor" name="nombre"/>Hombre
+            <input type="radio" id="identificador" value="valor" name="nombre"/>Mujer
+            <br><br>
+            Coreo:
+            <input type="text" id="email" name="email" size="20" value=""/>
+            <br><br>
+            Poblacion:
+            <input type="text" id="email" name="email" size="20" value=""/>
+            </select>
+            <br><br>
+            Descripcion:
+            <textarea rows="1" cols="50" name="comentario"></textarea>
+            <br><br>
+            <input type="checkbox" id="identificador" name="nombre"/>Deseo recibir información sobre novedades y ofertas
+            <br>
+            <input type="checkbox" id="identificador" name="nombre"/> Declaro haber leido y aceptar las codiciones generales del programa y la normativa sobre proteccion de datos
+            <br><br>
+            <button name="nombre" type="submit" value="ValorBoton">Enviar</button>
+            <br><br>
+            <button name="login"><a href="login.html">Login</a></button>
+        </form>
+    </div>
 </body>
 </html>
