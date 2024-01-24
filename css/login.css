@@ -39,4 +39,16 @@ div{
     text-align: center;
     font-weight: bolder;
 }
-
+footer {
+    background-color: #233142;
+    color: #ffffff;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+footer a {
+    color: #ffffff; 
+    text-decoration: underline; 
+}
