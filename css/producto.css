@@ -1,0 +1,31 @@
+body{
+    background-color: #233142;
+}
+li{
+    flex-basis: 100%;
+    text-align: center;
+    list-style-type: none;
+    background: #233142;
+    text-decoration: none;
+    align-items: flex-end;
+}
+li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #ffffff;
+    padding: 8px;
+    width: 100%;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 2px;
+}
+aside{
+    background-color: #ffffff;
+}
