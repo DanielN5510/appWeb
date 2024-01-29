@@ -26,8 +26,13 @@ ul{
     justify-content: space-around;
     gap: 2px;
 }
-aside{
+article{
     background-color: #ffffff;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
 }
 footer {
     background-color: #233142;
