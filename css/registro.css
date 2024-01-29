@@ -25,10 +25,17 @@ ul{
     display: flex;
     justify-content: space-around;
 }
-#Registro{
+fieldset{
+    border: none;
+    border-radius: 25%;
+    backdrop-filter: blur(5rem);
+}
+#fondo{
     background: url(../imagenes/registro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+#Registro{
     width: 100%;
     min-height: 75vh;
     display: flex;
@@ -51,4 +58,9 @@ footer {
 footer a {
     color: #ffffff; 
     text-decoration: underline; 
+}
+fieldset{
+    border: none;
+    border-radius: 25%;
+    backdrop-filter: blur(5rem);
 }

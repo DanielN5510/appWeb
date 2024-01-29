@@ -25,10 +25,18 @@ ul{
     display: flex;
     justify-content: space-around;
 }
-#Login{
+fieldset{
+    border: none;
+    border-radius: 25%;
+    backdrop-filter: blur(5rem);
+}
+#fondo{
     background: url(../imagenes/login.png);
     background-size: cover;
     background-repeat: no-repeat;
+    image-resolution:calc(2);
+}
+#Login{
     width: 100%;
     min-height: 75vh;
     display: flex;
