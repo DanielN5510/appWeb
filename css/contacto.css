@@ -13,8 +13,8 @@ li a{
     text-decoration: none;
     font-family: sans-serif;
     color: #ffffff;
-    padding: 8px;
-    width: 100%;
+    padding: 0.2rem;
+    width: 90%;
     font-weight: bolder;
     display: flex;
     align-items: center;
@@ -39,12 +39,11 @@ footer {
     justify-content: space-around;
     align-items: flex-end;
     padding: 10px;
-    display: grid;
-    grid-template-columns: 4fr 4fr 4fr;
 }
 footer a {
     color: #ffffff; 
     text-decoration: underline; 
+    font-size: 1rem;
 }
 #Formulario{
     width: 100%;
@@ -68,4 +67,28 @@ article div{
     text-align: center;
     font-weight: bolder;
     flex-direction: row;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+tr{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5fr 3fr 4fr;
+    justify-content: space-around;
+}
+td:hover, footer a:hover{
+    color: #c58206;
+    transform: rotate(360deg);
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+ul a:hover, ul svg:hover{
+    stroke: #c58206;
+    color: #c58206;
+    transform: rotate(360deg);
+    transition: transform 0.4s;
+    cursor: pointer;
 }
