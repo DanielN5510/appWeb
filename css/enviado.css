@@ -45,10 +45,40 @@ footer {
     justify-content: space-around;
     align-items: flex-end;
     padding: 10px;
-    display: grid;
-    grid-template-columns: 4fr 4fr 4fr;
 }
 footer a {
     color: #ffffff; 
     text-decoration: underline; 
+    font-size: 1rem;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+tr{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5fr 3fr 4fr;
+    justify-content: space-around;
+}
+td:hover, footer a:hover{
+    color: #c58206;
+    transform: rotate(360deg);
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+ul a:hover{
+    stroke: #c58206;
+    color: #c58206;
+    transform: rotate(360deg);
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+ul svg:hover{
+    stroke: #c58206;
+    color: #c58206;
+    transform: rotate(360deg);
+    transition: transform 0.4s;
+    cursor: pointer;
 }
