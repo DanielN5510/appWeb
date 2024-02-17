@@ -26,9 +26,6 @@ ul{
     justify-content: space-around;
     gap: 2px;
 }
-aside{
-    background-color: #ffffff;
-}
 footer {
     background-color: #233142;
     color: #ffffff;
@@ -65,4 +62,23 @@ ul svg:hover{
     stroke: #c58206;
     color: #c58206;
     cursor: pointer;
+}
+article {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.producto {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.producto img {
+    width: 100%;
+    height: auto;
+}
+.producto:hover {
+    transform: translateY(-10px);
 }
