@@ -76,3 +76,10 @@ ul svg:hover{
     color: #c58206;
     cursor: pointer;
 }
+button{
+    background-color: #233142;
+    color: #ffffff;
+}
+button a{
+    color: #ffffff;
+}
