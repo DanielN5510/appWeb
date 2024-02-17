@@ -45,7 +45,7 @@ footer a {
     text-decoration: underline; 
     font-size: 1rem;
 }
-#Descripcion{
+.Descripcion{
     text-align: left;
 }
 table{
@@ -61,21 +61,15 @@ tr{
 }
 td:hover, footer a:hover{
     color: #c58206;
-    transform: rotate(360deg);
-    transition: transform 0.4s;
     cursor: pointer;
 }
 ul a:hover{
     stroke: #c58206;
     color: #c58206;
-    transform: rotate(360deg);
-    transition: transform 0.4s;
     cursor: pointer;
 }
 ul svg:hover{
     stroke: #c58206;
     color: #c58206;
-    transform: rotate(360deg);
-    transition: transform 0.4s;
     cursor: pointer;
 }
