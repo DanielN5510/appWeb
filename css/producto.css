@@ -82,3 +82,8 @@ article {
 .producto:hover {
     transform: translateY(-10px);
 }
+.precio{
+    text-decoration: underline;
+    font-weight:bold;
+    color: #c58206;
+}
